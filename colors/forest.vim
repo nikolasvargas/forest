@@ -73,13 +73,13 @@ let s:cdNone = {'gui': 'NONE', 'cterm': 'NONE', 'cterm256': 'NONE'}
 " Normal text
 let s:cdFront = {'gui': '#f8efd8', 'cterm': s:cterm05, 'cterm256': '188'}
 " Background #001814
-let s:cdBack = {'gui': '#001814', 'cterm': s:cterm00, 'cterm256': '234'}
-" Comment
-let s:cdGreen = {'gui': '#00cd2a', 'cterm': s:cterm0B, 'cterm256': '65'}
+let s:cdBack = {'gui': '#001816', 'cterm': s:cterm00, 'cterm256': '234'}
+" Comment #00cd2a
+let s:cdGreen = {'gui': '#4cdc69', 'cterm': s:cterm0B, 'cterm256': '65'}
 " String assign
 let s:cdOrange = {'gui': '#99eba9', 'cterm': s:cterm0F, 'cterm256': '173'}
-" statements and functions
-let s:cdMainlyGreen = {'gui': '#9dbda1', 'cterm': s:cterm0D, 'cterm256': '75'}
+" statements and functions #9dbda1
+let s:cdMainlyGreen = {'gui': '#ccf5d4', 'cterm': s:cterm0D, 'cterm256': '75'}
 
 let s:cdTabCurrent = {'gui': '#1E1E1E', 'cterm': s:cterm00, 'cterm256': '234'}
 let s:cdTabOther = {'gui': '#2D2D2D', 'cterm': s:cterm01, 'cterm256': '236'}
