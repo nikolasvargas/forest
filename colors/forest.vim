@@ -72,7 +72,7 @@ endif
 let s:cdNone = {'gui': 'NONE', 'cterm': 'NONE', 'cterm256': 'NONE'}
 " Normal text f8efd8
 let s:cdFront = {'gui': '#dfd7c2', 'cterm': s:cterm05, 'cterm256': '188'}
-" Background #001816 #192f2d **062122 *072627 *15281e*
+" Background #001816 #192f2d **062122 *072627
 let s:cdBack = {'gui': '#072627', 'cterm': s:cterm00, 'cterm256': '234'}
 " Comment #00cd2a
 let s:cdGreen = {'gui': '#4cdc69', 'cterm': s:cterm0B, 'cterm256': '65'}
@@ -86,7 +86,8 @@ let s:cdTabOther = {'gui': '#2D2D2D', 'cterm': s:cterm01, 'cterm256': '236'}
 let s:cdTabOutside = {'gui': '#252526', 'cterm': s:cterm01, 'cterm256': '235'}
 
 let s:cdLeftDark = {'gui': '#252526', 'cterm': s:cterm01, 'cterm256': '235'}
-let s:cdLeftMid = {'gui': '#373737', 'cterm': s:cterm03, 'cterm256': '237'}
+" 373737
+let s:cdLeftMid = {'gui': '#604f3b', 'cterm': s:cterm03, 'cterm256': '237'}
 let s:cdLeftLight = {'gui': '#3F3F46', 'cterm': s:cterm03, 'cterm256': '238'}
 
 let s:cdPopupFront = {'gui': '#BBBBBB', 'cterm': s:cterm06, 'cterm256': '250'}
