@@ -70,10 +70,10 @@ endif
 
 " None
 let s:cdNone = {'gui': 'NONE', 'cterm': 'NONE', 'cterm256': 'NONE'}
-" Normal text
-let s:cdFront = {'gui': '#f8efd8', 'cterm': s:cterm05, 'cterm256': '188'}
-" Background #001816 #192f2d
-let s:cdBack = {'gui': '#192f2d', 'cterm': s:cterm00, 'cterm256': '234'}
+" Normal text f8efd8
+let s:cdFront = {'gui': '#dfd7c2', 'cterm': s:cterm05, 'cterm256': '188'}
+" Background #001816 #192f2d **062122 *072627 *15281e*
+let s:cdBack = {'gui': '#072627', 'cterm': s:cterm00, 'cterm256': '234'}
 " Comment #00cd2a
 let s:cdGreen = {'gui': '#4cdc69', 'cterm': s:cterm0B, 'cterm256': '65'}
 " String assign
