@@ -411,7 +411,8 @@ call <sid>hi('pythonBuiltinType', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('pythonBoolean', s:cdMainlyGreen, {}, 'none', {})
 call <sid>hi('pythonNone', s:cdMainlyGreen, {}, 'none', {})
 call <sid>hi('pythonTodo', s:cdMainlyGreen, {}, 'none', {})
-call <sid>hi('pythonClassVar', s:cdMainlyGreen, {}, 'none', {})
+" `self` variable
+call <sid>hi('pythonClassVar', s:cdFront, {}, 'none', {})
 call <sid>hi('pythonClassDef', s:cdBlueGreen, {}, 'none', {})
 
 " TeX:
