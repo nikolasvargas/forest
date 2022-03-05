@@ -404,7 +404,8 @@ call <sid>hi('goSingleDecl', s:cdFront, {}, 'none', {})
 
 " Python:
 call <sid>hi('pythonStatement', s:cdMainlyGreen, {}, 'none', {})
-call <sid>hi('pythonOperator', s:cdFront, {}, 'none', {})
+call <sid>hi('pythonAssignmentOperator', s:cdFront, {}, 'none', {})
+call <sid>hi('pythonLogicalOperator', s:cdMainlyGreen, {}, 'none', {})
 call <sid>hi('pythonException', s:cdMainlyGreen, {}, 'none', {})
 call <sid>hi('pythonExClass', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('pythonBuiltinObj', s:cdFront, {}, 'none', {})
@@ -412,9 +413,8 @@ call <sid>hi('pythonBuiltinType', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('pythonBoolean', s:cdMainlyGreen, {}, 'none', {})
 call <sid>hi('pythonNone', s:cdMainlyGreen, {}, 'none', {})
 call <sid>hi('pythonTodo', s:cdMainlyGreen, {}, 'none', {})
-" `self` variable
 call <sid>hi('pythonClassVar', s:cdFront, {}, 'none', {})
-call <sid>hi('pythonClassDef', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('pythonClass', s:cdBlueGreen, {}, 'none', {})
 
 " TeX:
 call <sid>hi('texStatement', s:cdMainlyGreen, {}, 'none', {})
