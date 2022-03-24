@@ -414,6 +414,7 @@ call <sid>hi('pythonNone', s:mainly_blue, {}, 'none', {})
 call <sid>hi('pythonTodo', s:mainly_blue, {}, 'none', {})
 call <sid>hi('pythonClassVar', s:cdFront, {}, 'none', {})
 call <sid>hi('pythonClass', s:mainly_green_class_primitive_types, {}, 'none', {})
+call <sid>hi('pythonFunctionCall', s:cdFront, {}, 'none', {})
 
 " TeX:
 call <sid>hi('texStatement', s:mainly_blue, {}, 'none', {})
