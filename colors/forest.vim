@@ -73,7 +73,9 @@ let s:cdNone = {'gui': 'NONE', 'cterm': 'NONE', 'cterm256': 'NONE'}
 " Normal text #d6bb9c
 let s:cdFront = {'gui': '#bdb395', 'cterm': s:cterm05, 'cterm256': '188'}
 " Background
-let s:cdBack = {'gui': '#072627', 'cterm': s:cterm00, 'cterm256': '234'}
+" #001F27 #072627
+" let s:cdBack = {'gui': '#062627', 'cterm': s:cterm00, 'cterm256': '234'}
+let s:cdBack = {'gui': '#001F27', 'cterm': s:cterm00, 'cterm256': '234'}
 " Comment
 let s:cdGreen = {'gui': '#4cdc69', 'cterm': s:cterm0B, 'cterm256': '65'}
 " String assign
