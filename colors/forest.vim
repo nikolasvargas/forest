@@ -74,14 +74,13 @@ let s:cdNone = {'gui': 'NONE', 'cterm': 'NONE', 'cterm256': 'NONE'}
 let s:cdFront = {'gui': '#bdb395', 'cterm': s:cterm05, 'cterm256': '188'}
 " Background
 " #062627
-" let s:cdBack = {'gui': '#041818', 'cterm': s:cterm00, 'cterm256': '234'}
 let s:cdBack = {'gui': '#001F27', 'cterm': s:cterm00, 'cterm256': '234'}
 " Comment
 let s:cdGreen = {'gui': '#4cdc69', 'cterm': s:cterm0B, 'cterm256': '65'}
 " String assign
 let s:mainly_green = {'gui': '#99eba9', 'cterm': s:cterm0F, 'cterm256': '173'}
 " statements and functions
-let s:mainly_blue = {'gui': '#c9d4d5', 'cterm': s:cterm0D, 'cterm256': '75'}
+let s:mainly_blue = {'gui': '#C8D4EC', 'cterm': s:cterm0D, 'cterm256': '75'}
 
 let s:cdTabCurrent = {'gui': '#1E1E1E', 'cterm': s:cterm00, 'cterm256': '234'}
 let s:cdTabOther = {'gui': '#2D2D2D', 'cterm': s:cterm01, 'cterm256': '236'}
