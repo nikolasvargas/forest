@@ -74,7 +74,8 @@ let s:cdNone = {'gui': 'NONE', 'cterm': 'NONE', 'cterm256': 'NONE'}
 let s:cdFront = {'gui': '#bdb395', 'cterm': s:cterm05, 'cterm256': '188'}
 " Background
 " #062627
-let s:cdBack = {'gui': '#001F27', 'cterm': s:cterm00, 'cterm256': '234'}
+" let s:cdBack = {'gui': '#001F27', 'cterm': s:cterm00, 'cterm256': '234'}
+let s:cdBack = {'gui': '#062627', 'cterm': s:cterm00, 'cterm256': '234'}
 " Comment
 let s:cdGreen = {'gui': '#4cdc69', 'cterm': s:cterm0B, 'cterm256': '65'}
 let s:cdGreenString = {'gui': '#14A78B', 'cterm': s:cterm0B, 'cterm256': '65'}
@@ -413,7 +414,7 @@ call <sid>hi('pythonBuiltinObj', s:cdFront, {}, 'none', {})
 call <sid>hi('pythonBuiltinType', s:mainly_green_class_primitive_types, {}, 'none', {})
 call <sid>hi('pythonBoolean', s:mainly_green_class_primitive_types, {}, 'none', {})
 call <sid>hi('pythonComment', s:cdGreen, {}, 'none', {})
-" call <sid>hi('pythonString', s:cdGreenString, {}, 'none', {})
+call <sid>hi('pythonString', s:cdGreenString, {}, 'none', {})
 call <sid>hi('pythonNone', s:mainly_green_class_primitive_types, {}, 'none', {})
 call <sid>hi('pythonTodo', s:mainly_blue, {}, 'none', {})
 " call <sid>hi('pythonClass', s:mainly_green_class_primitive_types, {}, 'none', {})
