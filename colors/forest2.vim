@@ -12,7 +12,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="forest"
+let g:colors_name="forest2"
 
 if &t_Co >= 256
     let g:forest_term256=1
